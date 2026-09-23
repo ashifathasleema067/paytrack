@@ -1,0 +1,10 @@
+{
+  "name": "paytrack-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm.cmd --prefix backend start",
+    "dev:frontend": "npm.cmd --prefix frontend dev",
+    "install:all": "npm.cmd --prefix backend install && npm.cmd --prefix frontend install"
+  }
+}
